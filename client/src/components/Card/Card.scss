@@ -1,0 +1,17 @@
+@import '../../scss/variables';
+
+.Card {
+  background-color: $blue-primary;
+  border-radius: 5px;
+  min-height: 65px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 5px 0 5px 5px;
+  margin: 5px 0;
+
+  &-checked {
+    background-color: $neutral;
+    text-decoration: line-through;
+  }
+}

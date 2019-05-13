@@ -1,0 +1,11 @@
+@import '../../scss/variables';
+
+.CardCornerLogo {
+  fill: $blue-secondary;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 5px;
+}

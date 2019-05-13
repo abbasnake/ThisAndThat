@@ -1,0 +1,9 @@
+.TodoList {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+
+  &-todos {
+    padding-left: 20%;
+  }
+}

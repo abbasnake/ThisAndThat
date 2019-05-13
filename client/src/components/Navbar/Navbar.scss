@@ -1,0 +1,26 @@
+@import '../../scss/variables';
+
+.Navbar {
+  height: 75px;
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+  background-color: $blue-secondary;
+
+  &-link {
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    width: 35px;
+    fill: $white;
+    -webkit-tap-highlight-color: transparent;
+    transition: width 100ms linear;
+    
+    &-active {
+      width: 50px;
+    }
+  }
+
+}

@@ -1,0 +1,20 @@
+@import '../../scss/variables';
+
+.NewListButton {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $white;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+
+  &-svg {
+    width: 65%;
+    height: 65%;
+    fill: $blue-secondary;
+  }
+}

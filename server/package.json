@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A server for ThisAndThat app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "dotenv": "^8.0.0",
+    "graphql": "^14.3.0",
+    "koa": "^2.7.0",
+    "koa-graphql": "^0.8.0",
+    "koa-mount": "^4.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
